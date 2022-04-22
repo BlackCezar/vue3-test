@@ -1,6 +1,6 @@
 <template>
   <div class="button-group">
-      <slot></slot>
+    <slot />
   </div>
 </template>
 
@@ -55,6 +55,5 @@ export default {
       color: white;
     }
   }
-
 
 </style>

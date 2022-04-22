@@ -1,20 +1,23 @@
 <template>
   <div class="block">
-      <header v-if="title">{{ title }}</header>
-      <div class="block-content">
-        <slot></slot>
-      </div>
+    <header v-if="title">
+      {{ title }}
+    </header>
+    <div class="block-content">
+      <slot />
+    </div>
   </div>
 </template>
 
-<script>
+<script lang="ts">
+import {defineComponent} from "vue";
 
-export default {
+export default defineComponent({
   name: 'BlockComponent',
   props: {
     title: String
   }
-}
+})
 </script>
 
 <style lang="scss" >

@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "module": "esnext",
     "baseUrl": "./",
     "moduleResolution": "node",
@@ -11,6 +11,7 @@
     },
     "lib": [
       "esnext",
+      "typescript",
       "dom",
       "dom.iterable",
       "scripthost"

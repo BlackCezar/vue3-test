@@ -6,7 +6,11 @@
           <span class="price">{{ ticket.price }}</span>
         </div>
         <div class="col">
-          <img src="@/assets/imgs/S7.png" alt="s7" class="ticket-company" />
+          <img
+            src=""
+            alt="s7"
+            class="ticket-company"
+          >
         </div>
       </div>
       <div class="row">
@@ -42,14 +46,14 @@
 </template>
 
 <script>
-import "@/assets/scss/Ticket.scss";
-import Block from "./Block.vue";
+import '@/assets/scss/Ticket.scss'
+import Block from './Block.vue'
 
 export default {
-  name: "BlockComponent",
+  name: 'BlockComponent',
   components: { Block },
   props: {
-    ticket: Object,
-  },
-};
+    ticket: Object
+  }
+}
 </script>
